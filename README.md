@@ -6,4 +6,4 @@ The point of this project was to make an AJAX request to get a quote from an ext
 
 I've reused The Background I've made on my [404 project](https://levizar.github.io/404/) and the crawling of [my Star Wars style Crawl project](https://levizar.github.io/Star-Wars-Crawl/).
 
-[Here is the link to the page](https://levizar.github.io/ajax-simple-web-service-request/).
+[Here is the link to the page](https://levizar.github.io/ajax-simple-web-service-request---Starwars-Crawl-Style/).
