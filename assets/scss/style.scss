@@ -20,18 +20,21 @@ body{
     line-height: 150%;
     text-align: justify;
     .crawl{
-        display: flex;
-        justify-content: space-around;
         position: relative;
         top: -100px;
-        transform-origin: 50% 100%;
-        animation: crawl 120s linear infinite;
+        transform-origin: 50% 150%;
+        animation: crawl 100s linear infinite;
+        img{
+          display: block;
+          margin: auto;
+          border-radius: 50%;
+        }
     }
 }
 
 @keyframes crawl {
     0% {
-      top: 0;
+      top: 1200px;
       transform: rotateX(20deg) translateZ(0);
     }
     100% { 

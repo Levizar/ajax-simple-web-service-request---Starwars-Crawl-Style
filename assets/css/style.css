@@ -128,14 +128,18 @@ body {
   .starwars .crawl {
     position: relative;
     top: -100px;
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-    -webkit-animation: crawl 120s linear infinite;
-            animation: crawl 120s linear infinite; }
+    -webkit-transform-origin: 50% 150%;
+            transform-origin: 50% 150%;
+    -webkit-animation: crawl 100s linear infinite;
+            animation: crawl 100s linear infinite; }
+    .starwars .crawl img {
+      display: block;
+      margin: auto;
+      border-radius: 50%; }
 
 @-webkit-keyframes crawl {
   0% {
-    top: 0;
+    top: 1200px;
     -webkit-transform: rotateX(20deg) translateZ(0);
             transform: rotateX(20deg) translateZ(0); }
   100% {
@@ -145,7 +149,7 @@ body {
 
 @keyframes crawl {
   0% {
-    top: 0;
+    top: 1200px;
     -webkit-transform: rotateX(20deg) translateZ(0);
             transform: rotateX(20deg) translateZ(0); }
   100% {
