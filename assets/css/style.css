@@ -11,7 +11,8 @@
   z-index: -999;
   position: absolute;
   top: 0%;
-  left: 0%; }
+  left: 0%;
+}
 
 .nebula {
   display: -webkit-box;
@@ -25,7 +26,8 @@
   background: url(../img/nebula.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
-  z-index: -998; }
+  z-index: -998;
+}
 
 .svg {
   margin: 0;
@@ -41,7 +43,8 @@
   -ms-grid-rows: (10%)[10];
       grid-template-rows: repeat(10, 10%);
   -ms-grid-columns: (10%)[10];
-      grid-template-columns: repeat(10, 10%); }
+      grid-template-columns: repeat(10, 10%);
+}
 
 .planet {
   margin: 0;
@@ -58,41 +61,54 @@
   opacity: 0.8;
   z-index: -996;
   -webkit-animation: pulsate-bck 2s ease-in-out infinite both;
-          animation: pulsate-bck 2s ease-in-out infinite both; }
+          animation: pulsate-bck 2s ease-in-out infinite both;
+}
 
 @-webkit-keyframes pulsate-bck {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1); }
+            transform: scale(1);
+  }
   25% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9); }
+            transform: scale(0.9);
+  }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8); }
+            transform: scale(0.8);
+  }
   75% {
     -webkit-transform: scale(0.85);
-            transform: scale(0.85); }
+            transform: scale(0.85);
+  }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1); } }
+            transform: scale(1);
+  }
+}
 
 @keyframes pulsate-bck {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1); }
+            transform: scale(1);
+  }
   25% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9); }
+            transform: scale(0.9);
+  }
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8); }
+            transform: scale(0.8);
+  }
   75% {
     -webkit-transform: scale(0.85);
-            transform: scale(0.85); }
+            transform: scale(0.85);
+  }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1); } }
+            transform: scale(1);
+  }
+}
 
 /* The empty class forces the bottom of the grid  */
 .empty {
@@ -100,14 +116,16 @@
   -ms-grid-row-span: 1;
   -ms-grid-column: 10;
   -ms-grid-column-span: 1;
-  grid-area: 10 / 10 / 11 / 11; }
+  grid-area: 10 / 10 / 11 / 11;
+}
 
 body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   font-family: 'Righteous', cursive;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .starwars {
   display: -webkit-box;
@@ -124,36 +142,47 @@ body {
   font-weight: 600;
   letter-spacing: 6px;
   line-height: 150%;
-  text-align: justify; }
-  .starwars .crawl {
-    position: relative;
-    top: -100px;
-    -webkit-transform-origin: 50% 150%;
-            transform-origin: 50% 150%;
-    -webkit-animation: crawl 100s linear infinite;
-            animation: crawl 100s linear infinite; }
-    .starwars .crawl img {
-      display: block;
-      margin: auto;
-      border-radius: 50%; }
+  text-align: justify;
+}
+
+.starwars .crawl {
+  position: relative;
+  top: -100px;
+  -webkit-transform-origin: 50% 150%;
+          transform-origin: 50% 150%;
+  -webkit-animation: crawl 60s linear infinite;
+          animation: crawl 60s linear infinite;
+}
+
+.starwars .crawl img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
 
 @-webkit-keyframes crawl {
   0% {
     top: 1200px;
     -webkit-transform: rotateX(20deg) translateZ(0);
-            transform: rotateX(20deg) translateZ(0); }
+            transform: rotateX(20deg) translateZ(0);
+  }
   100% {
     top: -6000px;
     -webkit-transform: rotateX(25deg) translateZ(-3000px);
-            transform: rotateX(25deg) translateZ(-3000px); } }
+            transform: rotateX(25deg) translateZ(-3000px);
+  }
+}
 
 @keyframes crawl {
   0% {
     top: 1200px;
     -webkit-transform: rotateX(20deg) translateZ(0);
-            transform: rotateX(20deg) translateZ(0); }
+            transform: rotateX(20deg) translateZ(0);
+  }
   100% {
     top: -6000px;
     -webkit-transform: rotateX(25deg) translateZ(-3000px);
-            transform: rotateX(25deg) translateZ(-3000px); } }
+            transform: rotateX(25deg) translateZ(-3000px);
+  }
+}
 /*# sourceMappingURL=style.css.map */
